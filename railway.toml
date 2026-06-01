@@ -1,0 +1,5 @@
+[build]
+buildCommand = "chmod +x mvnw && ./mvnw -Dmaven.test.skip=true clean package"
+
+[deploy]
+startCommand = "java -jar target/FinanzasPersonalesSpringboot-0.0.1-SNAPSHOT.jar"
