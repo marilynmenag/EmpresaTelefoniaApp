@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.finanzas.personales</groupId>
     <artifactId>FinanzasPersonalesSpringboot</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <name>FinanzasPersonalesSpringboot</name>
     <description>FinanzasPersonalesSpringboot</description>
     <url/>
