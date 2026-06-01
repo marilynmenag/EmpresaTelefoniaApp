@@ -8,10 +8,10 @@
         <version>3.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.clase.telefonia</groupId>
-    <artifactId>EmpresaTelefoniaApplication</artifactId>
-    <name>EmpresaTelefoniaApplication</name>
-    <description>EmpresaTelefoniaApplication</description>
+    <groupId>com.finanzas.personales</groupId>
+    <artifactId>FinanzasPersonalesSpringboot</artifactId>
+    <name>FinanzasPersonalesSpringboot</name>
+    <description>FinanzasPersonalesSpringboot</description>
     <url/>
     <licenses>
         <license/>

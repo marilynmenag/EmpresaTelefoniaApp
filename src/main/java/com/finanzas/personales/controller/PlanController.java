@@ -40,6 +40,12 @@ public class PlanController {
         return "redirect:/planes/";
     }
 
+    @GetMapping("/editar/{id}")
+    public String editar(@PathVariable Long id, Model model) {
+        model.addAttribute("plan", service.buscarPorId(id));
+        return "planes/formulario";
+    }
+
     @GetMapping("/eliminar/{id}")
     public String eliminar(@PathVariable Long id) {
         service.eliminar(id);
